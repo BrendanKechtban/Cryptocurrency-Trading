@@ -1,1 +1,1 @@
-A modern, responsive cryptocurrency analytics and portfolio management platform featuring real-time market data, interactive charts, and glassmorphism UI design.
+A modern, responsive cryptocurrency analytics and portfolio management platform delivering real-time market data, interactive visualizations, and a polished glassmorphism-inspired user interface.
