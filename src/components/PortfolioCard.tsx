@@ -7,7 +7,6 @@ const fetchBitcoinPrices = async () => {
   );
   const data = await response.json();
   
-  // Format data for the chart - take last 6 months
   return data.prices.slice(-180).map(([timestamp, price]: [number, number]) => ({
     date: new Date(timestamp).toLocaleDateString('en-US', { month: 'short' }),
     price: Math.round(price)
