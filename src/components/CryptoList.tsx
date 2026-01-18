@@ -13,7 +13,7 @@ const CryptoList = () => {
   const { data: cryptos, isLoading } = useQuery({
     queryKey: ['cryptos'],
     queryFn: fetchCryptoData,
-    refetchInterval: 30000, // Refetch every 30 seconds
+    refetchInterval: 30000, 
   });
 
   if (isLoading) {
